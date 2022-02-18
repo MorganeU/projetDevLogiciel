@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.howtodoinjava.demo.model.Employee;
-
-@RestController
+//@RestController
 public class EmployeeController {
 	
 	@RequestMapping("/")
