@@ -1,10 +1,16 @@
 package com.howtodoinjava.demo.model;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class Weather {
 
+    @ApiModelProperty(notes = "Name of the city", name = "name", required = true, value = "test name")
     private String ville_name;
+    @ApiModelProperty(notes = "Zipcode numero", name = "zipcode", required = true, value = "test zipcode")
     private String zipcode;
+    @ApiModelProperty(notes = "Name of the country", name = "country", required = true, value = "test country")
     private String pays;
+    @ApiModelProperty(notes = "What is the meteo", name = "meteo", required = true, value = "test meteo")
     private String meteo;
 
     public Weather(String name, String zipcode, String pays, String meteo) {

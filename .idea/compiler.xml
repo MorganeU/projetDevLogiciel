@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springbootdemo" />
         <module name="projetDevLogiciel" />
+        <module name="spring-hystrix-service" />
+        <module name="springbootdemo" />
         <module name="kata-hello-spring-boot-final-state" />
       </profile>
     </annotationProcessing>
