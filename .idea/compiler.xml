@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="projetDevLogiciel" />
+        <module name="com-self-sprintboot-learning-eureka" />
         <module name="spring-hystrix-service" />
         <module name="springbootdemo" />
         <module name="kata-hello-spring-boot-final-state" />
